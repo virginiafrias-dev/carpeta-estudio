@@ -6,26 +6,34 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="Inicio Web.css" />
 		<title>Virginia Web</title>
-		<style>
-			h1 {
-				text-align: center;
-			}
-		</style>
+		<!-- <link rel="preloud" href="index.css" as="style" /> -->
+		<!-- hace que los sitios web sean mas rapidos y con mejor performance. -->
+		<link rel="stylesheet" href="normalize.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="index.css" />
 	</head>
 	<body>
 		<header>
-			<h1>Hola esta es mi primer pagina web</h1>
+			<h1 class="titulo">Virginia Frias <span>Freelancer</span></h1>
+			<!-- la etiqueta span no cambia en anda pero al ponerla sirve para luego darle un estilo particular con css  -->
 		</header>
 
-		<nav>
-			<a href="#">Inicio</a>
-			<a href="#">Sobre mi</a>
-			<a href="#">Clientes</a>
-			<a href="#">Contacto</a>
-		</nav>
+		<div class="nav-bg">
+			<nav class="navegacion-principal contenedor">
+				<a href="#">Inicio</a>
+				<a href="#">Sobre mi</a>
+				<a href="#">Clientes</a>
+				<a href="#">Contacto</a>
+			</nav>
+		</div>
 
 		<section>
-			<h2>Diseño y desarrollo Web Freelancer</h2>
+			<h2 class="titulo">Diseño y desarrollo Web <span>Freelancer</span></h2>
 			<p>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
