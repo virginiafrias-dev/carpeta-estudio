@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tu peso en un lugar donde pesas menos</title>
+  </head>
+  <body>
+    <h1>Tu peso en otro planeta</h1>
+    <p>En la tierra pesas distinto que en Marte o Jupiter</p>
+    <script>
+      let g_tierra = 9.8;
+      let g_marte = 3.7;
+      let g_jupiter = 24.8;
+      let peso = 77;
+      let peso_final = (peso * g_marte) / g_tierra;
+      let resultadoPesoMarte = `Tu peso en Marte es ${peso_final.toFixed(2)}`;
+      document.write(resultadoPesoMarte);
+      // document.write(`Tu peso en Marte es ${peso_final}`);
+    </script>
+    <br />
+    <script>
+      peso_final = (peso * g_jupiter) / g_tierra;
+      // peso_final = parseInt(peso_final);
+      document.write('Tu peso en Jupiter es ' + peso_final);
+    </script>
+    <br />
+    <script>
+      document.write(
+        'Tu peso en Jupiter es (con el round) ' + Math.round(peso_final),
+      );
+    </script>
+    <br />
+    <script>
+      document.write(
+        'Tu peso en Jupiter es (con el ceil)' + Math.ceil(peso_final),
+      );
+    </script>
+    <br />
+    <script>
+      document.write(
+        'Tu peso en Jupiter es (con el floor)' + Math.floor(peso_final),
+      );
+    </script>
+  </body>
+</html>

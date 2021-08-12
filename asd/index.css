@@ -1,0 +1,23 @@
+body {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+
+.amor_container {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	color: blueviolet;
+	font-size: 120px;
+}
+
+.amando {
+	color: magenta;
+}

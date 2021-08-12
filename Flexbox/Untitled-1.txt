@@ -1,0 +1,31 @@
+Propiedades:
+.flex-direction : indica la direccion y posicion de los ejes (row-revers (pone al reves el start y el end), colum (direccion vertical) ) 
+
+.justify-content : es para el eje principar
+
+valores de justify-content: 
+-flex-start (predeterminada (el valor por defecto de justify-content es flex-start)) 
+-flex-end (los elementos se van al final del eje) 
+-center (manda al centro a los elementos)
+-space-between (hace que el espacio entre los elementos se distribuya uniformemente para ocupar todo el espacio en el eje principal) 
+-space-around (hace que el espacio alrededor de los elementos se distribuya)  
+-space-evenly (hace que todos tengan los mismos espacios entre elementos segun el eje)
+
+.align-items: alinea los elementos respecto al eje secundario
+
+propiedades de align-items:
+-stretch (es la propiedad por defecto) (rellena todo el espacio en el eje secundario)
+-flex-start
+-flex-end
+-center
+-baseline
+
+
+
+
+el eje principal y el secundario estan determinados por el flex-direction (que por defecto es row, o sea principal el horizontal y secundario el vertical; pero puedo poner column y que el principal sea el vertical y el secundario el horizontal)
+
+justify ordena en el eje principal y align lo hace en el eje secundario
+
+
+
